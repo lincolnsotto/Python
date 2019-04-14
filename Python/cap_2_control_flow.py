@@ -80,18 +80,19 @@
 
 # exercise number 9 cap 2
 # import sys
+
 # dig = ""
 # while dig != str(9) or str(2):
-#     print("Answer exercise numper 9 cap 2")
-#     print("Type a number: ")
-#     dig = input()
-#     break
+#    print("Answer exercise numper 9 cap 2")
+#    print("Type a number: ")
+#    dig = input()
+#    break
 # if dig == str(9):
-#         print("number 9 typed")
+#        print("number 9 typed")
 # elif dig == str(2):
-#         print("number 2 typed")
+#        print("number 2 typed")
 # else:
-#         print("not a number or number wrong typed, please type a number")
+#        print("not a number or number wrong typed, please type a number")
 
 # for i in range(10):
 #     print(i)
