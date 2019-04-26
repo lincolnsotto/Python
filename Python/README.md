@@ -1,2 +1,2 @@
-# DataScience
-Curso DataScience de A a Z
+# Directory to save python files
+
