@@ -6,6 +6,6 @@ while True:
     if name == "":
         break
     catNames = catNames + [name]
-print("The cat name are: ")
+print("The cat nam e are: ")
 for name in catNames:
     print("" + name)

@@ -94,4 +94,83 @@
 # print(spam)
 
 #########################################################
-spam = []
+# spam = [1, 4, 3, 2]
+
+# spam.insert(1, 5)  # insert number 5 in first position
+# spam.sort()  # ordened AASC
+# print(spam.index(5))  # print number 5 position
+# print(spam)  # print new list
+
+#########################################################
+# spam = ["D0", "a1", "A2", "b1", "B2", "D0"]
+
+# spam.sort(key=str.lower)
+# spam.remove("D0")
+# print(spam)
+
+#########################################################
+# import random
+# messages = ["it is cetain",
+#             "it is decidely to",
+#             "yes definitely",
+#             "reply hazy try again",
+#             "ask again later",
+#             "concentrate and ask again",
+#             "my reply is no",
+#             "outlook not so good",
+#             "very doubful"]
+# print(messages[random.randint(0, len(messages)-1)])
+
+#########################################################
+# name = "lincoln"
+# name = name + " Sotto"
+# for i in name:
+#     print("@@@ " + i + " @@@")
+
+#########################################################
+# name = "Lincoln Sotto"
+# print(len(name))
+# print(name[8:])
+# newName = name[:8] + "teste " + name[8:]
+# print(newName)
+
+#########################################################
+# eggs = [1, 2, 3, 5]
+# print(eggs)
+# del eggs[3]
+# eggs.append(4)
+# print(eggs)
+
+#########################################################
+# print(tuple([1, 2, 3, "teste"]))
+# print(list((1, 2, 3, "teste")))
+
+#########################################################
+# the list is a reference, then:
+# lst = [1, 2, 3, 4, 5]
+# lst1 = lst
+# lst2 = lst
+# print(lst, lst1, lst2)
+
+#########################################################
+#
+#
+# def eggs(someParameter):
+#     someParameter.append("hello")
+#
+#
+# spam = [1, 2, 3]
+# eggs(spam)
+# print(spam)
+
+#########################################################
+# import copy
+#
+# spam = ["A", "B", "c"]
+# cheese = copy.copy(spam)
+# cheese[0] = "aa"
+#
+# print(spam)
+# print(cheese)
+
+#########################################################
