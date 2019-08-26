@@ -32,11 +32,43 @@
 # "Hello World".startswith("Hello")  # or
 # "Hello World".endswith("Hello")
 
-# join() and split()
-print(", ".join(["My", "name", "is", "python!"]))
-print(" ".join(["My", "name", "is", "python!"]))
-print("-".join(["My", "name", "is", "python!"]))
-print("My", "name", "is", "python!".split())
+# # join() and split()
+# print(", ".join(["My", "name", "is", "python!"]))
+# print(" ".join(["My", "name", "is", "python!"]))
+# print("-".join(["My", "name", "is", "python!"]))
+# print("My name is Zuza".split())
+# print("My-name-is-python!".split("-"))
+
+# spam = """Dear alice,
+#         how are yout been? I am fine.
+#         There is a container in the fridge
+#         that is labeled "Milk experiment".
+#         Please dont drink it.
+#         Sincerely,
+#         Bob"""
+# print(spam.split())
+# print(spam.split('/n'))
+
+# print("Hello".rjust(20))
+# print("Hello".rjust(20, "*"))
+# print("Hello".ljust(20))
+# print("Hello".ljust(20, "*"))
+# print("Hello".center(20))
+# print("Hello".center(20, "*"))
+
+
+def printpicnic(itemsdict, leftwidft, rightwidth):
+    print('PICNIC ITEMS'.center(leftwidft + rightwidth, '-'))
+    for k, v in itemsdict.items():
+        print(k.ljust(leftwidft, '.') + str(v).rjust(rightwidth))
+
+
+picnicitems = {'Sandwiches': 4, 'Apples': 12, 'Cups': 4, 'Cookies': 8000}
+
+print(printpicnic(picnicitems, 12, 5))
+print(printpicnic(picnicitems, 20, 6))
+
+
 
 
 
