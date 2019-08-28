@@ -57,20 +57,25 @@
 # print("Hello".center(20, "*"))
 
 
-def printpicnic(itemsdict, leftwidft, rightwidth):
-    print('PICNIC ITEMS'.center(leftwidft + rightwidth, '-'))
-    for k, v in itemsdict.items():
-        print(k.ljust(leftwidft, '.') + str(v).rjust(rightwidth))
+# def printpicnic(itemsdict, leftwidft, rightwidth):
+#     print('PICNIC ITEMS'.center(leftwidft + rightwidth, '-'))
+#     for k, v in itemsdict.items():
+#         print(k.ljust(leftwidft, '.') + str(v).rjust(rightwidth))
+#
+#
+# picnicitems = {'Sandwiches': 4, 'Apples': 12, 'Cups': 4, 'Cookies': 8000}
+#
+# print(printpicnic(picnicitems, 12, 5))
+# print(printpicnic(picnicitems, 20, 6))
 
+# spam = "   Hello   "
+# print(spam.strip())
+# print(spam.lstrip())
+# print(spam.rstrip())
 
-picnicitems = {'Sandwiches': 4, 'Apples': 12, 'Cups': 4, 'Cookies': 8000}
-
-print(printpicnic(picnicitems, 12, 5))
-print(printpicnic(picnicitems, 20, 6))
-
-
-
-
+# import pyperclip
+# pyperclip.copy("Test pyperclip")
+# print(pyperclip.paste())
 
 # while True:
 #     print("Say me your age: ")
